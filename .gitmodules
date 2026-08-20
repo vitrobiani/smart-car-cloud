@@ -1,0 +1,3 @@
+[submodule "smart_car_project"]
+	path = smart_car_project
+	url = https://github.com/michal-lev/smart_car_project

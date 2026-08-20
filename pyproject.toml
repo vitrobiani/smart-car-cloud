@@ -1,9 +1,22 @@
 [project]
 name = "smart-car-cloud"
 version = "0.1.0"
-description = "Add your description here"
+description = "Volkswagen Car Brain – Phase 2 cloud prototype"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "fastapi[standard]>=0.141.1",
+    "pydantic-settings>=2.6.0",
+    "sqlalchemy>=2.0.35",
+    "psycopg2-binary>=2.9.9",
+    "python-dotenv>=1.0.1",
+    "redis>=5.2.0",
+    "apscheduler>=3.10.4",
+    "httpx>=0.28.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.0",
+    "pytest-asyncio>=0.24.0",
 ]
